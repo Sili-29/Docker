@@ -1,0 +1,500 @@
+   20  git remote add origin https://github.com/priyadarsinipradhan/my-project.git
+   21  git push -u origin master
+   22  mkdir pradhan
+   23  cd pradhan
+   24  git branch Feature1
+   25  git branch Feature2
+   26  git branch
+   27  git checkout Feature1
+   28  vi file1
+   29  git commit -m "1st commit for feature1"
+   30  git add .
+   31  git commit -m "1st commit for feature1"
+   32  ls
+   33  mkdir pradhan
+   34  ls
+   35  cd pradhan
+   36  ls
+   37  git branch
+   38  claer
+   39  git branch -d feature1
+   40  git branch
+   41  git branch -dFeature2
+   42  git branch -d Feature2
+   43  git branch
+   44  git checkout Master
+   45  git branch
+   46  git branch -d Feature2
+   47  git branch
+   48  ls
+   49  git branch Feature1
+   50  git branch Feature2
+   51  git branch
+   52  git checkout Feature1
+   53  cat Demo.java
+   54  cat >> Demo.java
+   55  vi Demo.java
+   56  cat Demo.java
+   57  git commit -m "1st commit for feature1 branch"
+   58  git checkout Feature2
+   59  ls
+   60  cat Demo.java
+   61  git log --oneline
+   62  git branch checkout Feayure2
+   63  git branch checkout Feature2
+   64  ls
+   65  cat Demo.java
+   66  git branch
+   67  git checkout Feature2
+   68  ls
+   69  git branch
+   70  ls
+   71  cat Demo.java
+   72  git log --oneline
+   73  vi Demo.java
+   74  cat Demo.java
+   75  git add .
+   76  git commit -m "1st commit from branch feature2"
+   77  git log --oneline
+   78  git merge Feature1
+   79  vi Demo.java
+   80  vi Demo.java
+   81  git add  .
+   82  git commit -m "2nd commit from branch feature2"
+   83  git merge Feature1
+   84  git branch feature3
+   85  git checkout feature3
+   86  ls
+   87  vi Demo.java
+   88  git commit -m "1st commit from branch feature3"
+   89  git merge feature3
+   90  git branch
+   91  git branch
+   92  ls
+   93  git branch
+   94  git branch Feature1
+   95  git branch Feature2
+   96  git checkout Feature1
+   97  vi Demo.java
+   98  git commit -m "1st commit from feature1"
+   99  git add .
+  100  git commit -m "1st commit from feature1"
+  101  git checkout feature2
+  102  vi Demo.java
+  103  git add .
+  104  git commit -m "commit from feature2"
+  105  git merge feature1
+  106  git log
+  107  git log
+  108  git log --oneline
+  109  git config --list
+  110  ls
+  111  mkdir newfile
+  112  git config --global --list
+  113  git --version
+  114  ls
+  115  ls docker-in-one-shot-key.pem
+  116  chmod 400 "docker-in-one-shot-key.pem"
+  117  ec2-51-20-87-115.eu-north-1.compute.amazonaws.com
+  118  ssh -i "docker-in-one-shot-key.pem" ubuntu@ec2-51-20-87-115.eu-north-1.compute.amazonaws.com
+  119  ssh -i "docker-in-one-shot-key.pem" ubuntu@ec2-51-20-87-115.eu-north-1.compute.amazonaws.com
+  120  ls
+  121  chmod 400 "my-k8s.pem"
+  122  ec2-16-16-67-118.eu-north-1.compute.amazonaws.com
+  123  ssh -i "my-k8s.pem" ubuntu@ec2-16-16-67-118.eu-north-1.compute.amazonaws.com
+  124  ssh -i "my-k8s.pem" ubuntu@ec2-16-16-67-118.eu-north-1.compute.amazonaws.com
+  125  ls
+  126  ssh -i "my-k8s.pem" ubuntu@ec2-13-61-182-149.eu-north-1.compute.amazonaws.com
+  127  ssh -i "my-k8s.pem" ubuntu@ec2-13-61-182-149.eu-north-1.compute.amazonaws.com
+  128  ssh -i "my-k8s.pem" ubuntu@ec2-13-48-105-22.eu-north-1.compute.amazonaws.com
+  129  ssh -i "my-k8s.pem" ubuntu@ec2-16-16-68-35.eu-north-1.compute.amazonaws.com
+  130  ssh -i "my-k8s.pem" ubuntu@ec2-16-16-68-35.eu-north-1.compute.amazonaws.com
+  131  ssh -i "my-k8s.pem" ubuntu@ec2-16-16-68-35.eu-north-1.compute.amazonaws.com
+  132  ssh -i "my-k8s.pem" ubuntu@ec2-51-20-136-253.eu-north-1.compute.amazonaws.com
+  133  chmod 400 "my-k8s-1shot.pem"
+  134  ssh -i "my-k8s-1shot.pem" ubuntu@ec2-13-51-170-107.eu-north-1.compute.amazonaws.com
+  135  ls
+  136  ssh -i "my-k8s-1shot.pem" ubuntu@ec2-13-61-154-234.eu-north-1.compute.amazonaws.com
+  137  ssh -i "my-k8s-1shot.pem" ubuntu@ec2-13-60-90-245.eu-north-1.compute.amazonaws.com
+  138  chmod 400 shelllll.pem
+  139  ssh -i "shelllll.pem" ubuntu@ec2-3-144-25-82.us-east-2.compute.amazonaws.com
+  140  ssh -i "shelllll.pem" ubuntu@ec2-3-144-25-82.us-east-2.compute.amazonaws.com
+  141  ssh -i "shelllll.pem" ubuntu@ec2-3-144-25-82.us-east-2.compute.amazonaws.com
+  142  ssh -i "shelllll.pem" ubuntu@ec2-18-227-114-19.us-east-2.compute.amazonaws.com
+  143  clear
+  144  ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com
+  145  ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com
+  146  [200~ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com~
+  147  ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com
+  148  ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com
+  149  ssh -i "shelllll.pem" ubuntu@ec2-3-147-126-137.us-east-2.compute.amazonaws.com
+  150  ssh -i "shelllll.pem" ubuntu@ec2-18-119-140-82.us-east-2.compute.amazonaws.com
+  151  ls
+  152  cd D:
+  153  ls
+  154  cd Linux and shell script
+  155  ssh -i "shelllll.pem" ubuntu@ec2-3-144-28-157.us-east-2.compute.amazonaws.com
+  156  vim jethalas.sh
+  157  rm -rf jethalas.sh
+  158  vim jetha.sh
+  159  chmod 754 jetha.sh
+  160  bash jetha.sh
+  161  vim jetha.sh
+  162  bash jetha.sh
+  163  rm -rf demon
+  164  ls
+  165  rm -rf demon$
+  166  vim jetha_ki_loyal.sh
+  167  ls
+  168  bash jetha_ki_loyal.sh
+  169  vim jetha_ki_loyal.sh
+  170  chmod 754 jetha_ki_loyal.sh
+  171  bash jetha_ki_loyal.sh
+  172  vim jetha_ki_loyal.sh
+  173  bash jetha_ki_loyal.sh
+  174  vim jetha_ki_loyal.sh
+  175  bash jetha_ki_loyal.sh
+  176  vim jetha_ki_loyal.sh
+  177  bash jetha_ki_loyal.sh
+  178  vim jetha_ki_loyal.sh
+  179  bash jetha_ki_loyal.sh
+  180  vim jetha_ki_loyal.sh
+  181  bash jetha_ki_loyal.sh
+  182  vim jetha_ki_loyal.sh
+  183  Daya Bhabi
+  184  bash jetha_ki_loyal.sh
+  185  vim jetha_ki_loyal.sh
+  186  bash jetha_ki_loyal.sh
+  187  vim loop.sh
+  188  chmod 754 loop.sh
+  189  bash loop.sh
+  190  vim loop.sh
+  191  bash loop.sh
+  192  vim loop.sh
+  193  bash loop.sh
+  194  vim loop.sh
+  195  bash loop.sh
+  196  ./loop.sh
+  197  chmod 755 loop.sh
+  198  ls
+  199  ./loop.sh
+  200  vim loop.sh
+  201  ./loop.sh
+  202  vim loop.sh
+  203  ./loop.sh
+  204  vim loop.sh
+  205  ./loop.sh
+  206  vim loop.sh
+  207  ./loop.sh
+  208  vim loop.sh
+  209  ./loop.sh
+  210  clear
+  211  vim loop.sh
+  212  vim loop.sh
+  213  bash loop.sh day 01 90
+  214  cat loop.sh
+  215  vim looping.sh
+  216  chmod 754 looping.sh
+  217  bash looping.sh
+  218  vim looping.sh
+  219  bash looping.sh
+  220  cat looping.sh
+  221  vim looping.sh
+  222  bash looping.sh
+  223  ls
+  224  rm -rf looping.sh
+  225  rm -rf day*
+  226  rm -rf demo*
+  227  ls
+  228  vim while.sh
+  229  chmod 754 while.sh
+  230  bash while.sh
+  231  vim while.sh
+  232  bash while.sh
+  233  vim while.sh
+  234  bash while.sh
+  235  vim while.sh
+  236  bash while.sh
+  237  vim while.sh
+  238  ./while.sh
+  239  vim while.sh
+  240  bash while.sh
+  241  vim while.sh
+  242  bash while.sh
+  243  cat while.sh
+  244  vim exm.sh
+  245  chmod 754 exm.sh
+  246  bash exm.sh
+  247  vim while.sh
+  248  bash while.sh
+  249  bash exm.sh
+  250  vim exm.sh
+  251  rm -rf exm.sh
+  252  vim while.sh
+  253  bash while.sh
+  254  vim while.sh
+  255  bash while.sh
+  256  vim exm.sh
+  257  cat while.sh
+  258  vim exm.sh
+  259  chmod 754 exm.sh
+  260  bash exm.sh
+  261  vim exm.sh
+  262  vim exm.sh
+  263  cat exm.sh
+  264  vim exm.sh
+  265  bash exm.sh
+  266  cat exm.sh
+  267  cat while.sh
+  268  vim exm.sh
+  269  bash exm.sh
+  270  cat exm.sh
+  271  vim exm.sh
+  272  bash exm.sh
+  273  cat exm.sh
+  274  vim exm.sh
+  275  bash exm.sh
+  276  rm -rf exm.sh
+  277  ls
+  278  vim exm.sh
+  279  chmod 754 exm.sh
+  280  bash exm.sh
+  281  vim exm.sh
+  282  bash exm.sh
+  283  bash exm.sh
+  284  vim exm.sh
+  285  bash exm.sh
+  286  vim exm.sh
+  287  cat while.sh
+  288  cat exm.sh
+  289  vim exm.sh
+  290  bash exm.sh
+  291  cat exm.sh
+  292  cat while.sh
+  293  vim exm.sh
+  294  bash exm.sh
+  295  vim exm.sh
+  296  bash exm.sh
+  297  cat exm.sh
+  298  clear
+  299  vim args.sh
+  300  chmod 754 args.sh
+  301  bash args.sh
+  302  vim args.sh
+  303  bash args.sh
+  304  cat args.sh
+  305  git status
+  306  git remote add origin git@github.com:Sili-29/python.git
+  307  git push -u origin main
+  308  git tag
+  309  git status
+  310  git log -a
+  311  git tag
+  312  git tag -a 1.0 -m "1st code"
+  313  git tag
+  314  git show 1.0
+  315  git status
+  316  git status
+  317  git add .
+  318  git status
+  319  git commit -m "if else and operator"
+  320  git status
+  321  git push origin main
+  322  git tag
+  323  git tag 1.1 -m "if else and operator"
+  324  git push origin 1.0
+  325  git push origin 1.1
+  326  echo "# python" >> README.md
+  327  ls
+  328  git init
+  329  ls
+  330  git status
+  331  cat README.ms
+  332  cat README.md
+  333  ls
+  334  ls -a
+  335  git staus
+  336  git status
+  337  git add .
+  338  git status
+  339  git commit -m "first commit"
+  340  git branch -M main
+  341  git status
+  342  ssh-keygen-o
+  343  ssh-keygen -o
+  344  ls -a
+  345  cd .
+  346  cd ..
+  347  cd ..
+  348  cd C:
+  349  ls
+  350  cd Users
+  351  ls
+  352  cd THINKPAD
+  353  ls
+  354  cd .ssh
+  355  ls
+  356  cat id_ed25519.pub
+  357  cat id_ed25519.pub
+  358  git remote add origin git@github.com:Sili-29/python.git
+  359  git push -u origin main
+  360  git remote add origin git@github.com:Sili-29/python.git
+  361  git push -u origin main
+  362  git push -u origin main
+  363  git status
+  364  cd ..
+  365  cd e
+  366  cd E
+  367  cd ..
+  368  cd ..
+  369  cd ..
+  370  cd D
+  371  ls
+  372  cd New folder (2)
+  373  cd New folder (2)
+  374  cd ..
+  375  cd E
+  376  ls
+  377  cd python practice
+  378  cd python practice
+  379  history
+  380  git --version
+  381  clear
+  382  bash 1_basic.sh
+  383  ls -ltr
+  384  vi 2_comments.sh
+  385  vi 2_comments
+  386  ls
+  387  vi 2_comments.sh
+  388  bash 2_comments.sh
+  389  vi 2_comments.sh
+  390  bash 2_comments.sh
+  391  cat 2_comments.sh
+  392  vi variable3.sh
+  393  bash variable3.sh
+  394  vi variable3.sh
+  395  bash variable3.sh
+  396  vi variable3.sh
+  397  bash variable.sh
+  398  bash variable3.sh
+  399  vi variable3.sh
+  400  bash variable3.sh
+  401  hostname
+  402  vi constv4.sh
+  403  bash constv4.sh
+  404  vi constv4
+  405  vi constv4.sh
+  406  bash constv4.sh
+  407  vi constv4.sh
+  408  vi Array5.sh
+  409  cat Array5.sh
+  410  vi Array5.sh
+  411  cat Array.sh
+  412  cat Array5.sh
+  413  cat Array5.sh
+  414  vi Array5.sh
+  415  bash Array5.sh
+  416  vi Array5.sh
+  417  bash Array5.sh
+  418  bash Array5.sh
+  419  vi Array5.sh
+  420  bash Array.sh
+  421  bash Array5.sh
+  422  bash Array5.sh
+  423  git init
+  424  git status
+  425  git add .
+  426  git ststus
+  427  git status
+  428  git commit 1_basic.sh -m "hello"
+  429  git status
+  430  git commit 2_comments.sh -m "about comments"
+  431  git status
+  432  git commit agenda.txt -m "The topics I need to complete of Shellscripting"
+  433  git status
+  434  git commit Array5.sh -m "about array"
+  435  git commit constv4.sh -m "about constant variable"
+  436  git commit impo.txt -m "some important things about shellscript"
+  437  git commit shell.txt -m "what is shell"
+  438  git commit variable3.sh -m "about variable"
+  439  git status
+  440  git push origin main
+  441  git remote add origin git@github.com:Sili-29/shell.git
+  442  git push -u origin main
+  443  bash Array5.sh
+  444  bash Array5.sh
+  445  cat Array5.sh
+  446  bash Array5.sh
+  447  bash Array5.sh
+  448  bash Array5.sh
+  449  bash Array5.sh
+  450  bash Array5.sh
+  451  bash Array5.sh
+  452  bash Array5.sh
+  453  bash Array5.sh
+  454  git status
+  455  git commit 
+  456  git status
+  457  git add .
+  458  git status
+  459  git commit
+  460  git commit -m "about Array"
+  461  git status
+  462  git push origin main
+  463  vi arraykey_value.sh
+  464  bash arraykey_value.sh
+  465  bash arraykey_value.sh
+  466  bash arraykey_value.sh
+  467  bash arraykey_value.sh
+  468  bash arraykey_value.sh
+  469  bash arraykey_value.sh
+  470  git status
+  471  git add .
+  472  git commit -m "storing the key value pairs in Array"
+  473  git push origin main
+  474  vi stringops.sh
+  475  bash stringops.sh
+  476  bash stringops.sh
+  477  bash stringops.sh
+  478  bash stringops.sh
+  479  bash stringops.sh
+  480  bash stringops.sh
+  481  bash stringops.sh
+  482  bash stringops.sh
+  483  git status
+  484  git add .
+  485  git status
+  486  git commit -m "about the string operations"
+  487  git status
+  488  git push origin main
+  489  git status'
+  490  git status
+  491  git init
+  492  git status
+  493  git add .
+  494  git status
+  495  git commit -m "my java"
+  496  git push origin main 
+  497  git remote add origin git@github.com:Sili-29/simple-java-.git
+  498  git branch -M main
+  499  git push origin main
+  500  git status
+  501  cd testapp
+  502  npm start
+  503  docker ps ls
+  504  docker ps -a
+  505  docker images
+  506  docker run fac06ab11fd8
+  507  ls >files_in_loc
+  508  ls
+  509  cat files_in)loc
+  510  cat files_in_loc
+  511  git status
+  512  git commit -m "files in a location"
+  513  git add .
+  514  git status
+  515  git commit -m "files in ls location"
+  516  git status
+  517  git push -u origin main
+  518  git status
+  519  history >>all_commands
