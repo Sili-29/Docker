@@ -1,0 +1,8 @@
+Dockerfile
+files_in_loc
+node_modules/
+package.json
+package-lock.json
+public/
+README.md
+src/
